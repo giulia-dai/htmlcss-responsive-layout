@@ -79,6 +79,16 @@ main{
         background-color: var(--primary-light-color);
         padding: 1rem;
     }
+
+    #benefits{
+        background-color: var(--secondary-color);
+        padding: 4rem 0;
+    }
+
+    #benefits .card{
+        margin-top: 1 rem;
+        margin-bottom: 1rem;
+    }
     
 
     /* RESPONSIVE RULES */
@@ -116,6 +126,16 @@ main{
             display: flex;
         }
 
+        #benefits .card{
+            margin-left: 1rem;
+            margin-right: 1rem;
+            width: calc(( 100% / 2) - 2rem );
+        }
+
+        #benefits .cards{
+            display: flex;
+            flex-wrap: wrap;
+        }
 
         
     }
@@ -147,6 +167,12 @@ main{
         #planning .column{
             width: calc(50% - 2rem);
             margin: 1rem;
+        }
+
+        #benefits .card{
+            margin-left: 1rem;
+            margin-right: 1rem;
+            width: calc((100% / 3) - 2rem);
         }
 
     }
