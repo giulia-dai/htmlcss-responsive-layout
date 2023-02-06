@@ -11,6 +11,7 @@
     --primary-light-color: #b5ddff;
     --secondary-color: #9792e4;
     --secondary-color-debug: #cecce0;
+    --footer-color: rgb(51,51,51);
 }
 
 header.size-header {
@@ -99,6 +100,44 @@ main{
     #about-us .column{
         margin-top: 1rem;
     }
+
+    #get-started{
+        padding: 1rem;
+        background-color: var(--secondary-color);
+    }
+
+    #get-started .debug-box2{
+        text-align: center;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    #get-started .debug-box2:last-child{
+        margin-bottom: 30px;
+    }
+
+    .footer-size{
+      
+        background-color: var(--footer-color);
+        height: 200px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .footer-size .debug-box2:first-child{
+          margin-top: 10px;
+    }
+
+    .footer-size .debug-box2:last-child{
+        margin-top: 30px;
+  }
+
+  .footer-size .debug-box2{
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+  }
 
 
     /* RESPONSIVE RULES */
