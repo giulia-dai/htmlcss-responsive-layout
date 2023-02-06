@@ -1,0 +1,115 @@
+/* CSS RULES */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #3684fd;
+    --primary-light-color: #b5ddff;
+    --secondary-color: #9792e4;
+    --secondary-color-debug: #cecce0;
+}
+
+header.size-header {
+    background-color: var(--primary-color);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    }
+   
+
+.container{
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+
+}
+
+.align-center{
+    align-items: center;
+}
+
+main{
+    padding-top: 100px;
+}
+
+#intro .card{
+    margin-bottom: 1.5rem;
+   
+}
+    
+    /* DEBUG RULES */
+
+    .debug-box{
+        height: 80px;
+        background-color: var(--primary-light-color);
+        padding: 1rem;
+    }
+
+    .debug-box2{
+        height: 80px;
+        background-color: var(--primary-light-color);
+        padding: 1rem;
+    }
+    
+
+    /* RESPONSIVE RULES */
+
+   /* TABLET SIZE */
+
+    @media  screen and (min-width: 768px) {
+        .container{
+            max-width: 740px;
+        }
+
+        #intro .cards{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -0.75rem;
+            margin-right: -0.75rem;
+        }
+
+        #intro .card{
+            width: calc((100% / 3) - 1.5rem);
+            margin-left: 0.75rem;
+            margin-right: 0.75rem;
+            background-color: var(--primary-light-color);
+        }
+
+        #intro .card:first-child{
+            width: calc((100% / 3 * 2) - 1.5rem );
+        }
+
+        
+    }
+
+    /* PC SIZE */
+
+    @media screen and (min-width: 992px) {
+        .container{
+            max-width: 960px;
+        }
+
+        #intro .card:first-child{
+            display: flex;
+         
+        }
+        
+        #intro .card:first-child > div{
+            width: 50%;
+           
+        }
+    }
+
