@@ -45,11 +45,19 @@ main{
     padding-top: 100px;
 }
 
-#intro .card{
+.card{
     margin-bottom: 1.5rem;
-   
+}
+
+#planning{
+    background-color: var(--secondary-color);
+    padding: 2rem 0;
 }
     
+#planning .column{
+    margin: 1rem 0;
+}
+
     /* DEBUG RULES */
 
     .debug-box{
@@ -92,6 +100,11 @@ main{
             width: calc((100% / 3 * 2) - 1.5rem );
         }
 
+        #planning .column:first-child{
+            margin-right: 0.5rem;
+        }
+
+
         
     }
 
@@ -111,5 +124,18 @@ main{
             width: 50%;
            
         }
+
+        #planning .columns{
+            display: flex;
+            align-items: flex-end;
+            padding-left: 6rem;
+            padding-right: 6rem;
+        }
+
+        #planning .column{
+            width: calc(50% - 2rem);
+            margin: 1rem;
+        }
+
     }
 
