@@ -58,6 +58,14 @@ main{
     margin: 1rem 0;
 }
 
+ #testimonial{
+    padding: 3rem 0;
+ }
+
+ #testimonial .card{
+    margin: 2rem 0;
+ }
+
     /* DEBUG RULES */
 
     .debug-box{
@@ -102,6 +110,10 @@ main{
 
         #planning .column:first-child{
             margin-right: 0.5rem;
+        }
+
+        #testimonial .card{
+            display: flex;
         }
 
 
