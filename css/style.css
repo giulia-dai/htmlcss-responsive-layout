@@ -23,6 +23,7 @@ header.size-header {
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 999;
     width: 100%;
     height: 80px;
     }
@@ -230,6 +231,10 @@ main{
     font-weight: 200;
    }
 
+   .l-height-30{
+    line-height: 30px;
+   }
+
    .purple-txt{
     color: var(--secondary-color);
    }
@@ -237,6 +242,10 @@ main{
    .box-testimonial{
     width: 300px;
     margin:auto; 
+   }
+
+   .box-testimonial-left{
+    width: 300px;
    }
 
    .testimonial-img{
@@ -258,6 +267,27 @@ main{
 
    .fa-apple{
     padding-right: 10px;
+  }
+
+  #about-us .fa-quote-left{
+    position: absolute;
+    left: 200px;
+    font-size: 60px;
+    color: var(--secondary-color);
+  }
+
+  .fa-linkedin-in{
+    color: var(--secondary-color);
+    background-color: white;
+    padding: 3px;
+  }
+
+  .relative{
+    position: relative;
+  }
+
+  .decoration{
+    text-decoration: none;
   }
 
   /* BTN RULES */
@@ -292,7 +322,7 @@ main{
    .medium-btn{
     padding: 10px;
     border-radius: 20px;
-    width: 30%;
+    width: 40%;
    }
 
   .small-btn{
