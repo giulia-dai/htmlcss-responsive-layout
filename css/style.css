@@ -222,6 +222,31 @@ main{
     font-weight: 100;
    }
 
+   h5{
+    font-weight: 200;
+   }
+
+   .purple-txt{
+    color: var(--secondary-color);
+   }
+   
+   .box-testimonial{
+    width: 300px;
+    margin:auto; 
+   }
+
+   .testimonial-img{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+   }
+
+   .quotation{
+    font-size: 30px;
+    padding: 2px;
+   }
+
   /* BTN RULES */
 
   .white-txt{
@@ -302,6 +327,7 @@ main{
 
         #testimonial .card{
             display: flex;
+            flex-direction: column;
         }
 
         #benefits .card{
@@ -353,6 +379,10 @@ main{
         #planning .column{
             width: calc(50% - 2rem);
             margin: 1rem;
+        }
+
+        #testimonial .card{
+            flex-direction: row;
         }
 
         #benefits .card{
