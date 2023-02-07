@@ -31,6 +31,8 @@ header.size-header {
         height: 100%;
     }
 
+
+
 .container{
     max-width: 600px;
     margin: auto;
@@ -40,6 +42,7 @@ header.size-header {
 .flex{
     display: flex;
 }
+
 
 .space-between{
     justify-content: space-between;
@@ -75,20 +78,57 @@ main{
     margin: 2rem 0;
  }
 
+ #intro h3{
+    color: var(--primary-color);
+    padding: 10px 0 10px 0;
+ }
+
+ .mb-20{
+    margin-bottom: 20px;
+ }
+
+ .w-80{
+    width: 80%;
+ }
+
+ .w-100{
+    width: 100%;
+ }
+
+ .app-img{
+    width: 80%;
+ }
+
+ .big-icon{
+    font-size: 80px;
+    color: var(--primary-color);
+    
+ }
+
+ .center{
+    text-align: center;
+ }
+
     /* DEBUG RULES */
 
 
     .debug-box{
-        height: 80px;
+        min-height: 80px;
         background-color: var(--primary-light-color);
         padding: 1rem;
     }
 
     .debug-box2{
-        height: 80px;
+        min-height: 80px;
         background-color: var(--primary-light-color);
         padding: 1rem;
     }
+
+    .debug-box3{
+        min-height: 80px;
+        background-color: var(--primary-light-color);
+    }
+
 
     /* FINE DEBUG RULES */
 
@@ -156,13 +196,46 @@ main{
     padding-top: 10px;
   }
 
+  /* BTN RULES */
+
   .white-txt{
     color: white;
   }
 
+  .white-btn{
+    background-color: white;
+  }
+
+  .blue-btn{
+    background-color: var(--primary-color);
+  }
+
+  .black-txt{
+    color: black;
+ }
+
+ .btn{
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .big-btn{
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+  }
+
+  .fa-apple{
+    padding-right: 10px;
+  }
+
+
+  /* FINE BTN RULES */
+
+
     /* RESPONSIVE RULES */
 
-   /* TABLET SIZE */
+    /* TABLET SIZE */
 
     @media  screen and (min-width: 768px) {
         .container{
