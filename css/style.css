@@ -32,8 +32,6 @@ header.size-header {
         height: 100%;
     }
 
-
-
 .container{
     max-width: 600px;
     margin: auto;
@@ -43,7 +41,6 @@ header.size-header {
 .flex{
     display: flex;
 }
-
 
 .space-between{
     justify-content: space-between;
@@ -104,6 +101,10 @@ main{
     margin-top: 30px;
  }
 
+ .pr-20{
+    padding-right: 20px;
+ }
+
  .app-img{
     width: 80%;
  }
@@ -116,6 +117,10 @@ main{
 
  .center{
     text-align: center;
+ }
+
+ #get-started a:last-child{
+    text-decoration: underline;
  }
 
 
@@ -263,6 +268,10 @@ main{
    .bigger{
     font-size: 50px;
     font-weight: 600;
+   }
+
+   .yellow-txt{
+    color: #FDC15F ;
    }
 
    .fa-apple{
