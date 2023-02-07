@@ -156,6 +156,8 @@ main{
         background-color: var(--secondary-color);
         padding: 1rem;
     }
+
+    
     
     /* FINE DEBUG RULES */
 
@@ -203,10 +205,12 @@ main{
 
     .footer-size .debug-box2:first-child{
           margin-top: 10px;
+          background-color: var(--footer-color);
     }
 
     .footer-size .debug-box2:last-child{
         margin-top: 30px;
+        background-color: var(--footer-color);
   }
 
   .footer-size .debug-box2{
