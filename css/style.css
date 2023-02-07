@@ -87,6 +87,10 @@ main{
     margin-bottom: 20px;
  }
 
+.pb-50{
+    padding-bottom: 50px;
+}
+
  .w-80{
     width: 80%;
  }
@@ -109,6 +113,8 @@ main{
     text-align: center;
  }
 
+
+
     /* DEBUG RULES */
 
 
@@ -129,7 +135,18 @@ main{
         background-color: var(--primary-light-color);
     }
 
+    .debug-box4{
+        min-height: 80px;
+        background-color: white;
+        padding: 1rem;
+    }
 
+    .debug-box5{
+        min-height: 80px;
+        background-color: var(--secondary-color);
+        padding: 1rem;
+    }
+    
     /* FINE DEBUG RULES */
 
     #benefits{ 
@@ -196,6 +213,15 @@ main{
     padding-top: 10px;
   }
 
+   .img-planning{
+    width: 100%;
+    
+   }
+
+   em{
+    font-weight: 100;
+   }
+
   /* BTN RULES */
 
   .white-txt{
@@ -225,10 +251,20 @@ main{
     width: 200px;
   }
 
+  .small-btn{
+    padding: 15px;
+    border-radius: 100%;
+  }
+
   .fa-apple{
     padding-right: 10px;
   }
 
+  
+
+  .purple-btn{
+    background-color: var(--secondary-color);
+  }
 
   /* FINE BTN RULES */
 
