@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
 :root{
     --primary-color: #3684fd;
     --primary-light-color: #b5ddff;
@@ -76,6 +80,7 @@ main{
 
     .debug-box{
         height: 80px;
+        background-color: var(--primary-light-color);
         padding: 1rem;
     }
 
@@ -148,9 +153,12 @@ main{
   }
 
   .hamburger{
-    color: white;
+    padding-top: 10px;
   }
 
+  .white-txt{
+    color: white;
+  }
 
     /* RESPONSIVE RULES */
 
@@ -246,7 +254,6 @@ main{
 
          .main-menu a{
             text-decoration: none;
-            color: white; 
          }
 
          .main-menu{
@@ -261,11 +268,28 @@ main{
 
          ul > li{
             padding-left: 1rem;
-            padding-top: 20px;
+            padding-top: 10px;
          }
 
          .hamburger{
             display: none;
+         }      
+
+         .btn{
+           padding: 10px;
+           border-radius: 20px;
+         }
+
+         .white-btn{
+           background-color: white;
+         }
+       
+         .black-txt{
+            color: black;
+         }
+         
+         .white-txt{
+            color: white;
          }
 
 
