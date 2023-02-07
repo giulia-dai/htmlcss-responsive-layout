@@ -99,6 +99,10 @@ main{
     width: 100%;
  }
 
+ .mt-30{
+    margin-top: 30px;
+ }
+
  .app-img{
     width: 80%;
  }
@@ -247,6 +251,15 @@ main{
     padding: 2px;
    }
 
+   .bigger{
+    font-size: 50px;
+    font-weight: 600;
+   }
+
+   .fa-apple{
+    padding-right: 10px;
+  }
+
   /* BTN RULES */
 
   .white-txt{
@@ -276,16 +289,20 @@ main{
     width: 200px;
   }
 
+   .medium-btn{
+    padding: 10px;
+    border-radius: 20px;
+    width: 30%;
+   }
+
   .small-btn{
-    padding: 15px;
-    border-radius: 100%;
+    padding: 5px;
+    border-radius: 50%;
   }
 
-  .fa-apple{
-    padding-right: 10px;
-  }
-
-  
+   .spacing{
+    letter-spacing: 3px;
+   }
 
   .purple-btn{
     background-color: var(--secondary-color);
